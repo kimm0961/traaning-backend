@@ -1,0 +1,28 @@
+GET http://localhost:3033/oevelser/tester
+###
+
+
+GET http://localhost:3033/oevelser
+
+###
+
+GET http://localhost:3033/oevelser/5ee9ff89cf78291ce0b12cdb
+
+###
+POST http://localhost:3033/oevelser/admin
+Content-Type: application/json
+
+{
+    "oevelseNavn": "surt",
+    "oevelseBeskrivelse": "citroner og mere"
+}
+
+###
+DELETE http://localhost:3033/oevelser/admin/5ee9ff89cf78291ce0b12cdb
+###
+PATCH http://localhost:3033/oevelser/admin/5ee9ff89cf78291ce0b12cdb
+Content-Type: application/json
+
+{
+    "oevelseNavn": "New overskrift"
+}

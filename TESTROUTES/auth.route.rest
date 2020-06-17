@@ -1,0 +1,14 @@
+
+POST http://localhost:3033/auth/login
+Content-Type: application/json
+
+{
+    "brugernavn": "anna",
+    "password": "seme"
+}
+
+###
+GET http://localhost:3033/auth/logout
+
+###
+GET http://localhost:3033/auth/loggedin

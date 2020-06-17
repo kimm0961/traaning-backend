@@ -1,0 +1,31 @@
+GET http://localhost:3033/admin/bruger/tester
+
+###
+
+
+GET http://localhost:3033/admin/bruger
+
+###
+
+GET http://localhost:3033/admin/bruger/5ee9feffa23bdf03bc950a9b
+###
+POST http://localhost:3033/admin/bruger
+Content-Type: application/json
+
+{
+    "brugernavn": "kim",
+    "navn": "kim",
+    "email": "kim@gmail.com",
+    "password": "seme"
+}
+
+###
+DELETE http://localhost:3033/admin/bruger/5ee9feffa23bdf03bc950a9b
+###
+PATCH http://localhost:3033/admin/bruger/5ee9feffa23bdf03bc950a9b
+Content-Type: application/json
+
+{
+    "brugernavn": "Kimmie"
+}
+
