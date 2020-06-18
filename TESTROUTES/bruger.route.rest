@@ -1,28 +1,34 @@
-GET http://localhost:3033/admin/bruger/tester
+# GET http://localhost:3033/admin/bruger/tester
+GET https://traaning.herokuapp.com/admin/bruger/tester
 
 ###
 
 
-GET http://localhost:3033/admin/bruger
+# GET http://localhost:3033/admin/bruger
+GET https://traaning.herokuapp.com/admin/bruger
 
 ###
 
-GET http://localhost:3033/admin/bruger/5ee9feffa23bdf03bc950a9b
+# GET http://localhost:3033/admin/bruger/5ee9feffa23bdf03bc950a9b
+GET https://traaning.herokuapp.com/admin/bruger/5eeb176c7242a100170180a9
 ###
-POST http://localhost:3033/admin/bruger
+# POST http://localhost:3033/admin/bruger
+POST https://traaning.herokuapp.com/admin/bruger
 Content-Type: application/json
 
 {
-    "brugernavn": "kim",
-    "navn": "kim",
-    "email": "kim@gmail.com",
+    "brugernavn": "emma",
+    "navn": "emma",
+    "email": "emma@gmail.com",
     "password": "seme"
 }
 
 ###
-DELETE http://localhost:3033/admin/bruger/5ee9feffa23bdf03bc950a9b
+# DELETE http://localhost:3033/admin/bruger/5ee9feffa23bdf03bc950a9b
+DELETE https://traaning.herokuapp.com/admin/bruger/5eeb176c7242a100170180a9
 ###
-PATCH http://localhost:3033/admin/bruger/5ee9feffa23bdf03bc950a9b
+# PATCH http://localhost:3033/admin/bruger/5ee9feffa23bdf03bc950a9b
+PATCH https://traaning.herokuapp.com/admin/bruger/5eeb176c7242a100170180a9
 Content-Type: application/json
 
 {

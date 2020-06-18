@@ -64,24 +64,24 @@ app.use(session({
 
 //route indeholder ordet admin
 
-// app.use('*/admin*', (req, res, next) => {
+app.use('*/admin*', (req, res, next) => {
 
-//     // hvis der ikke er en session
-//     if (!req.session.userId) {
-//         return res.status(401).json({ message: 'Du har ikke adgang - skal være logget ind'})
-//     }
+    // hvis der ikke er en session
+    if (!req.session.userId) {
+        return res.status(401).json({ message: 'Du har ikke adgang - skal være logget ind'})
+    }
 
-//     // hvis der er en session... så bare fortsæt arbejdet
-//     next();
-// })
+    // hvis der er en session... så bare fortsæt arbejdet
+    next();
+})
 
 // Routes
 
 const brugerRouter = require('./routes/bruger')
 app.use('/admin/bruger', brugerRouter)
 
-const gaaderRouter = require('./routes/oevelser')
-app.use('/oevelser', gaaderRouter)
+const oevelserRouter = require('./routes/oevelser')
+app.use('/oevelser', oevelserRouter)
 
 const authRouter = require('./routes/auth')
 app.use('/auth', authRouter)
