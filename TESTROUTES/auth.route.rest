@@ -4,7 +4,7 @@ POST https://traaning.herokuapp.com/auth/login
 Content-Type: application/json
 
 {
-    "brugernavn": "julie",
+    "brugernavn": "anna",
     "password": "seme"
 }
 

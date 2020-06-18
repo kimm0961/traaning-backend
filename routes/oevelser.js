@@ -24,6 +24,18 @@ router.get('/:id', getOevelse, (req, res) => {
     res.json(res.oevelse)
 })
 
+// Getting from forfatter
+router.get('/admin/dine-oevelser', async (req, res) => {
+
+    try {
+        const oevelser = await Oevelse.find({forfatter: req.session.userName})
+        res.json(oevelser)
+    } catch (err) {
+        res.status(500).json({ message: err.message })
+        
+    }
+})
+
 // Creating one
 router.post('/admin/', async (req, res) => {
     const oevelse = new Oevelse({
