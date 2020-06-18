@@ -36,7 +36,7 @@ const MongoStore = require('connect-mongo')(session);
 const TWO_HOURS = 1000 * 60 * 60 * 2;
 
 // const {
-//     PORT = 3050,
+//     PORT = 3033,
 //     NODE_ENV = 'development',
 //     SESS_NAME = 'sid',
 //     SESS_SECRET = 'ssh!quiet,it\'asecret!',
