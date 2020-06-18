@@ -28,7 +28,8 @@ router.get('/:id', getOevelse, (req, res) => {
 router.post('/admin/', async (req, res) => {
     const oevelse = new Oevelse({
         oevelseNavn: req.body.oevelseNavn,
-        oevelseBeskrivelse: req.body.oevelseBeskrivelse
+        oevelseBeskrivelse: req.body.oevelseBeskrivelse,
+        forfatter: req.session.userName
     })
 
     try {

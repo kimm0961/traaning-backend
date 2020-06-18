@@ -10,7 +10,7 @@ GET https://traaning.herokuapp.com/admin/bruger
 ###
 
 # GET http://localhost:3033/admin/bruger/5ee9feffa23bdf03bc950a9b
-GET https://traaning.herokuapp.com/admin/bruger/5eeb176c7242a100170180a9
+GET https://traaning.herokuapp.com/admin/bruger/5eea04ce876a8c09980e6e6f
 ###
 # POST http://localhost:3033/admin/bruger
 POST https://traaning.herokuapp.com/admin/bruger
@@ -25,10 +25,10 @@ Content-Type: application/json
 
 ###
 # DELETE http://localhost:3033/admin/bruger/5ee9feffa23bdf03bc950a9b
-DELETE https://traaning.herokuapp.com/admin/bruger/5eeb176c7242a100170180a9
+DELETE https://traaning.herokuapp.com/admin/bruger/5eea04ce876a8c09980e6e6f
 ###
 # PATCH http://localhost:3033/admin/bruger/5ee9feffa23bdf03bc950a9b
-PATCH https://traaning.herokuapp.com/admin/bruger/5eeb176c7242a100170180a9
+PATCH https://traaning.herokuapp.com/admin/bruger/5eea04ce876a8c09980e6e6f
 Content-Type: application/json
 
 {

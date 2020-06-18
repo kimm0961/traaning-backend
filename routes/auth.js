@@ -22,6 +22,7 @@ router.post('/login', async (req, res) => {
            // SESSION SAT!!
            console.log('logget ind')
            req.session.userId = bruger._id;
+           req.session.userName = bruger.brugernavn;
            res.json({brugernavn: bruger.brugernavn, brugerID: bruger._id});
        } else {
            // Der var ikke et match

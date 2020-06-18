@@ -8,6 +8,10 @@ const oevelseSchema = new mongoose.Schema({
     oevelseBeskrivelse: {
         type: String,
         required: true
+    },
+    forfatter: {
+        type: String,
+        required: true,
     }
 }, 
 { timestamps: true})
