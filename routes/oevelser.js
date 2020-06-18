@@ -24,7 +24,7 @@ router.get('/:id', getOevelse, (req, res) => {
     res.json(res.oevelse)
 })
 
-// Getting from forfatter
+// Getting alle dine oevelser
 router.get('/admin/dine-oevelser', async (req, res) => {
 
     try {

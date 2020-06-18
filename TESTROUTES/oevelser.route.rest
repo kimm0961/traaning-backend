@@ -14,7 +14,7 @@ GET https://traaning.herokuapp.com/oevelser/admin/dine-oevelser
 ###
 
 # GET http://localhost:3033/oevelser/5ee9ff89cf78291ce0b12cdb
-GET https://traaning.herokuapp.com/oevelser/5eea04dc876a8c09980e6e70
+GET https://traaning.herokuapp.com/oevelser/5eeb2a5c494b1d0017b24c33
 
 ###
 # POST http://localhost:3033/oevelser/admin

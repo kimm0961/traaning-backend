@@ -10,25 +10,25 @@ GET https://traaning.herokuapp.com/admin/bruger
 ###
 
 # GET http://localhost:3033/admin/bruger/5ee9feffa23bdf03bc950a9b
-GET https://traaning.herokuapp.com/admin/bruger/5eea04ce876a8c09980e6e6f
+GET https://traaning.herokuapp.com/admin/bruger/5eeb17567242a100170180a8
 ###
 # POST http://localhost:3033/admin/bruger
 POST https://traaning.herokuapp.com/admin/bruger
 Content-Type: application/json
 
 {
-    "brugernavn": "emma",
-    "navn": "emma",
-    "email": "emma@gmail.com",
+    "brugernavn": "julie",
+    "navn": "julie",
+    "email": "julie@gmail.com",
     "password": "seme"
 }
 
 ###
 # DELETE http://localhost:3033/admin/bruger/5ee9feffa23bdf03bc950a9b
-DELETE https://traaning.herokuapp.com/admin/bruger/5eea04ce876a8c09980e6e6f
+DELETE https://traaning.herokuapp.com/admin/bruger/5eeb17567242a100170180a8
 ###
 # PATCH http://localhost:3033/admin/bruger/5ee9feffa23bdf03bc950a9b
-PATCH https://traaning.herokuapp.com/admin/bruger/5eea04ce876a8c09980e6e6f
+PATCH https://traaning.herokuapp.com/admin/bruger/5eeb17567242a100170180a8
 Content-Type: application/json
 
 {

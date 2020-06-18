@@ -84,6 +84,7 @@ const oevelserRouter = require('./routes/oevelser')
 app.use('/oevelser', oevelserRouter)
 
 const authRouter = require('./routes/auth')
+const bruger = require('./models/bruger')
 app.use('/auth', authRouter)
 
 // PORT
